@@ -16,7 +16,6 @@ export const isResponseOk = (response) => {
 };
 
 const normalizeDataObject = (obj) => {
-  console.log(obj);
   return {
     ...obj,
     category: obj.categories,
